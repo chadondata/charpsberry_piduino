@@ -18,7 +18,7 @@ len equ $ - msg
 section         .text
 global _start
 _start:
-; Computer sum of squares from 1 to n (inclusive)
+; Compute sum of squares from 1 to n (inclusive)
 ; for (i=1; i<=n; i++) 
 ;   sumOfSquares += i^2
     mov edx, len
